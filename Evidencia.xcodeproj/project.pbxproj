@@ -7,19 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB41193A28F77E8D00E1E2D5 /* ViewControllerEquipo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB41193928F77E8D00E1E2D5 /* ViewControllerEquipo.swift */; };
+		FB41193D28F77E9F00E1E2D5 /* ViewControllerPartidos.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB41193C28F77E9F00E1E2D5 /* ViewControllerPartidos.swift */; };
+		FB41194028F77EE500E1E2D5 /* ViewControllerAgregarJugador.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB41193F28F77EE500E1E2D5 /* ViewControllerAgregarJugador.swift */; };
+		FB41194328F77EFA00E1E2D5 /* ViewControllerEliminarJugador.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB41194228F77EFA00E1E2D5 /* ViewControllerEliminarJugador.swift */; };
+		FB41194728F77F5C00E1E2D5 /* ViewControllerAgregarPartido.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB41194628F77F5C00E1E2D5 /* ViewControllerAgregarPartido.swift */; };
+		FB41194A28F77F6A00E1E2D5 /* ViewControllerEliminarPartido.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB41194928F77F6A00E1E2D5 /* ViewControllerEliminarPartido.swift */; };
 		FB74D8A128F4EBAD008EEB15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB74D8A028F4EBAD008EEB15 /* AppDelegate.swift */; };
 		FB74D8A328F4EBAD008EEB15 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB74D8A228F4EBAD008EEB15 /* SceneDelegate.swift */; };
-		FB74D8A528F4EBAD008EEB15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB74D8A428F4EBAD008EEB15 /* ViewController.swift */; };
 		FB74D8A828F4EBAD008EEB15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB74D8A628F4EBAD008EEB15 /* Main.storyboard */; };
 		FB74D8AA28F4EBB4008EEB15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB74D8A928F4EBB4008EEB15 /* Assets.xcassets */; };
 		FB74D8AD28F4EBB4008EEB15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB74D8AB28F4EBB4008EEB15 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB41193928F77E8D00E1E2D5 /* ViewControllerEquipo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerEquipo.swift; sourceTree = "<group>"; };
+		FB41193C28F77E9F00E1E2D5 /* ViewControllerPartidos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerPartidos.swift; sourceTree = "<group>"; };
+		FB41193F28F77EE500E1E2D5 /* ViewControllerAgregarJugador.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerAgregarJugador.swift; sourceTree = "<group>"; };
+		FB41194228F77EFA00E1E2D5 /* ViewControllerEliminarJugador.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerEliminarJugador.swift; sourceTree = "<group>"; };
+		FB41194628F77F5C00E1E2D5 /* ViewControllerAgregarPartido.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerAgregarPartido.swift; sourceTree = "<group>"; };
+		FB41194928F77F6A00E1E2D5 /* ViewControllerEliminarPartido.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerEliminarPartido.swift; sourceTree = "<group>"; };
 		FB74D89D28F4EBAD008EEB15 /* Evidencia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Evidencia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB74D8A028F4EBAD008EEB15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB74D8A228F4EBAD008EEB15 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FB74D8A428F4EBAD008EEB15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FB74D8A728F4EBAD008EEB15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB74D8A928F4EBB4008EEB15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB74D8AC28F4EBB4008EEB15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +47,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB41194528F77F2000E1E2D5 /* ViewsControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FB41193C28F77E9F00E1E2D5 /* ViewControllerPartidos.swift */,
+				FB41193928F77E8D00E1E2D5 /* ViewControllerEquipo.swift */,
+				FB41194228F77EFA00E1E2D5 /* ViewControllerEliminarJugador.swift */,
+				FB41193F28F77EE500E1E2D5 /* ViewControllerAgregarJugador.swift */,
+				FB41194628F77F5C00E1E2D5 /* ViewControllerAgregarPartido.swift */,
+				FB41194928F77F6A00E1E2D5 /* ViewControllerEliminarPartido.swift */,
+			);
+			name = ViewsControllers;
+			sourceTree = "<group>";
+		};
 		FB74D89428F4EBAD008EEB15 = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +79,9 @@
 		FB74D89F28F4EBAD008EEB15 /* Evidencia */ = {
 			isa = PBXGroup;
 			children = (
+				FB41194528F77F2000E1E2D5 /* ViewsControllers */,
 				FB74D8A028F4EBAD008EEB15 /* AppDelegate.swift */,
 				FB74D8A228F4EBAD008EEB15 /* SceneDelegate.swift */,
-				FB74D8A428F4EBAD008EEB15 /* ViewController.swift */,
 				FB74D8A628F4EBAD008EEB15 /* Main.storyboard */,
 				FB74D8A928F4EBB4008EEB15 /* Assets.xcassets */,
 				FB74D8AB28F4EBB4008EEB15 /* LaunchScreen.storyboard */,
@@ -137,9 +160,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB74D8A528F4EBAD008EEB15 /* ViewController.swift in Sources */,
+				FB41194728F77F5C00E1E2D5 /* ViewControllerAgregarPartido.swift in Sources */,
+				FB41193D28F77E9F00E1E2D5 /* ViewControllerPartidos.swift in Sources */,
 				FB74D8A128F4EBAD008EEB15 /* AppDelegate.swift in Sources */,
 				FB74D8A328F4EBAD008EEB15 /* SceneDelegate.swift in Sources */,
+				FB41193A28F77E8D00E1E2D5 /* ViewControllerEquipo.swift in Sources */,
+				FB41194A28F77F6A00E1E2D5 /* ViewControllerEliminarPartido.swift in Sources */,
+				FB41194328F77EFA00E1E2D5 /* ViewControllerEliminarJugador.swift in Sources */,
+				FB41194028F77EE500E1E2D5 /* ViewControllerAgregarJugador.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
