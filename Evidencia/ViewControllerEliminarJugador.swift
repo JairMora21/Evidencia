@@ -26,4 +26,7 @@ class ViewControllerEliminarJugador: UIViewController {
     }
     */
 
+    @IBAction func VolverEquipo(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
 }

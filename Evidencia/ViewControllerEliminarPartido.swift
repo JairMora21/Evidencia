@@ -25,5 +25,7 @@ class ViewControllerEliminarPartido: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    @IBAction func RegresarEquipo(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
 }

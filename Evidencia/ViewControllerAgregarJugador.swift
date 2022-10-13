@@ -26,4 +26,7 @@ class ViewControllerAgregarJugador: UIViewController {
     }
     */
 
+    @IBAction func RegresarEquipo(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
 }
